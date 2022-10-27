@@ -1,0 +1,64 @@
+:root {
+    --border: #DDDDDD solid 1px;
+    --circle-radius: 82px;
+}
+
+.places h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+/* SQUARE */
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F solid 1px;
+    border-radius: 4px;
+    flex-basis: 390px;
+}
+
+/*CONTAINER*/
+.placesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* PLACE NAME */
+.places article h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+/*TAB FLEX */
+.articleFlex {
+    display: flex;
+    border-bottom: var(--border);
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+/*FIX SO THAT IT IS EVENLY SPACED*/
+.price_by_night_filler {
+    min-width: 60px;
+}
+
+/*PRICE TAG*/
+.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: var(--circle-radius);
+    height: var(--circle-radius);
+}
+
+/*PRICE TAG TEXT*/
+.price_by_night p {
+    font-size: 40px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
