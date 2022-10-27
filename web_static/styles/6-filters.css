@@ -36,7 +36,7 @@ button:hover {
 .filters div {
     float: left;
     height: 100%;
-    width: 25%;
+    width: 33%;
     text-align: left;
 }
 
@@ -59,14 +59,17 @@ button:hover {
 }
 
 .popover {
+    width: 331.8;
     visibility: hidden;
     border: var(--filter-border);
-    background-color: #f7f7f7;
+    background-color: #fafafa;
     list-style: none;
     padding-top: 27px;
     padding-left: 25px;
     padding-bottom: 23px;
+    padding-right: 0px;
     margin-top: 0px;
+    width: auto;
 }
 
 .popover h2 {
@@ -76,6 +79,7 @@ button:hover {
 
 .locations .popover li {
     margin-bottom: 25px;
+    width: 101%;
 }
 
 .popover p {
