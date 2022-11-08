@@ -45,7 +45,7 @@ button:hover {
     font-weight: 600;
     margin-left: var(--filter-h-margin-left);
     margin-bottom: 5px;
-    margin-top: 11.8px;
+    margin-top: 5px;
 }
 
 .filters div h4 {
